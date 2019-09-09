@@ -1,0 +1,21 @@
+.logo {
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 23px;
+}
+.option {
+  font-family: "Ubuntu Mono", monospace;
+}
+.mat-button {
+  font-family: "Ubuntu Mono", monospace;
+}
+.buffer {
+  min-width: 40px !important;
+}
+.matMenu {
+  width: 200px;
+}
+.viewTitle {
+  font-size: 13px;
+  display: inline-block;
+  font-family: "Ubuntu Mono", monospace;
+}
