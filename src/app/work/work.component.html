@@ -38,5 +38,5 @@
   </mat-card>
 
 </div>
-<h4 *ngIf="!ordersService.getStatus() && !switchererService.getCustomerView()" class="noOrders">No Pending Work Orders At This Time</h4>
-<h4 *ngIf="switchererService.getCustomerView()" class="noOrders">You Do Not have the Required Privileges to View this Page</h4>
+<h4 *ngIf="!ordersService.getStatus() && !switcherService.getCustomerView()" class="noOrders">No Pending Work Orders At This Time</h4>
+<h4 *ngIf="switcherService.getCustomerView()" class="noOrders">You Do Not have the Required Privileges to View this Page</h4>
